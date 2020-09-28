@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.main {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  background: #1d1d1d;
+}
+
+.box {
+  background: linear-gradient(
+      216.36deg,
+      #565656 0%,
+      #4b4b4b 2.44%,
+      #2b2b2b 30.91%,
+      #0b0b0b 66.53%,
+      #0b0b0b 81.46%
+    ),
+    #c4c4c4;
+  border: 2px solid #2e2e2e;
+  border-radius: 13px;
+  height: 30rem;
+  width: 25rem;
+  display: flex;
+  flex-direction: column;
+  margin: 2rem 2rem;
+}
+
+.top-section {
+  height: 12rem;
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.staate-box {
+  height: 2.5rem;
+  width: 7rem;
+  background: #222222;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #383637;
+  border-radius: 3px;
+}
+
+.staate-box > p {
+  color: #fff;
+  font-size: 1.4rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.time-text > p {
+  color: #fff;
+  font-size: 1.4rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.middle-section {
+  height: 40rem;
+  width: 50%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon {
+  height: 6rem;
+  width: 6rem;
+  object-fit: contain;
+}
+
+.middle-section > p {
+  color: #fff;
+  font-size: 1.6rem;
+  margin: 1rem 0;
+}
+
+/* FOOTER */
+.footer {
+  height: 20vh;
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  color: #fff;
+  margin-bottom: 2rem;
+}
+
+.right-side-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+  height: 6rem;
+  width: 20rem;
+}
+
+.right-side-info img {
+  height: 12px;
+  width: 12px;
+  margin-right: 1rem;
+}
+
+.info {
+  display: flex;
+  align-items: center;
+}
+
+.info p {
+  font-size: 0.9rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.left-side {
+  height: 6rem;
+  width: 10rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 7rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
